@@ -1,0 +1,68 @@
+.skill {
+    border: 1px solid #50a9d1;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: auto;
+    display: inline-block;
+    font-size: 11px;
+    line-height: 1.33333em;
+    padding: 7px 18px;
+    margin-top: 0.8em;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
+
+.center{
+    /* margin:0 auto; */
+    margin-top: 2px;
+    margin-bottom: 250px;
+    margin-right: 2px;
+    margin-left: 2px;
+    display: block;
+    max-width: 99%;
+    height: 99%;
+}
+
+.belt{
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.parallax-aboutme[_ngcontent-c1] {
+    background-image: url(../assets/images/aboutme.jpg);
+}
+.parallax-projects[_ngcontent-c1] {
+    background-image: url(../assets/images/projects.jpg);
+}
+
+.parallax-hobbies[_ngcontent-c1] {
+    background-image: url(../assets/images/hobbies.jpg);
+}
+
+.parallax-skills[_ngcontent-c1] {
+    background-image: url(../assets/images/coding.jpg);
+}
+
+.parallax-awards[_ngcontent-c1] {
+    background-image: url(../assets/images/dream.jpg);
+}
+
+.parallax-contacts[_ngcontent-c1]{
+
+    background-image: url(../assets/images/contact.jpg);
+
+}
+
+.parallax[_ngcontent-c1], .parallax-aboutme[_ngcontent-c1], .parallax-contacts[_ngcontent-c1], .parallax-projects[_ngcontent-c1], .parallax-hobbies[_ngcontent-c1], .parallax-skills[_ngcontent-c1], .parallax-awards[_ngcontent-c1] {
+    margin-top: 40px;
+    min-height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
